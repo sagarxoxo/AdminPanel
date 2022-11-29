@@ -1,0 +1,28 @@
+.tableContainer{
+    margin-top: 36px;
+}
+.custTableHead{
+    background-color: #F3F6F9;
+    color: #464E5F;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    height: 42px;
+}
+
+.custTableHead .fmCheck{
+    min-height: 0px;
+    margin-bottom: 0px;
+    margin-left: 12px;
+}
+
+.custTableHead th{
+    padding: 12px 0px;
+    text-align: center;
+}
+
+.custTableHead th:first-child{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}

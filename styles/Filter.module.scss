@@ -1,0 +1,185 @@
+.filterHeader {
+	display: flex;
+	justify-content: space-between;
+	.buttons {
+		display: flex;
+		gap: 8px;
+		margin-bottom: 20px;
+	}
+}
+.titleHolder {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 16px;
+	h3 {
+		font-style: normal;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 21px;
+		color: #2d3779;
+		margin-bottom: 7px;
+	}
+	span {
+		font-weight: 500;
+		font-size: 13px;
+		line-height: 16px;
+		color: #b5b5c3;
+	}
+}
+.filterContent {
+	background-color: #fff;
+	padding: 16px;
+	border: 1px solid #e9f0fc;
+	border-radius: 4px;
+}
+.slideDownUp {
+	max-height: 660px;
+	transition-property: all;
+	transition-duration: 0.5s;
+}
+.slideDownUp.hide {
+	overflow-y: hidden;
+	max-height: 0;
+}
+.formGroup {
+	margin-bottom: 20px;
+}
+.formGroup input,
+.dropdownInput input,
+.formGroup select {
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 16px;
+	color: #9f9fb0;
+	border: 1px solid #e7ecff;
+	height: 32px;
+	padding-inline: 12px;
+	background: #fff;
+	border-radius: 2px;
+}
+.formGroup input::placeholder {
+	color: #9f9fb0;
+}
+.formGroup label {
+	font-weight: 600;
+	font-size: 12px;
+	color: #7e839f;
+}
+.datetimeGroupe {
+	display: flex;
+	gap: 16px;
+}
+.minFormGrupe {
+	display: flex;
+	gap: 10px;
+}
+.minFormGrupe > div:nth-child(1) {
+	width: 100%;
+}
+.minFormGrupe > div:nth-child(2) {
+	width: 80px;
+}
+.formGroupDropdown > div {
+	position: relative;
+}
+.formGroupDropdown input,
+.formGroupDropdown select {
+	padding-right: 32px;
+}
+.formGroupDropdown > div::after {
+	position: absolute;
+	content: " ";
+	display: block;
+	top: 50%;
+	right: 14px;
+	transform: translate(-0%, -50%);
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 5px 5px 0 5px;
+	border-color: #9f9fb0 transparent transparent transparent;
+}
+.minMaxGroupe {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 8px;
+	.separator {
+		height: 1px;
+		width: 8px;
+		background-color: #6d728e;
+	}
+	.minMaxInput {
+		color: #6d728e;
+	}
+}
+.dateTimePickerHolder {
+	position: relative;
+}
+.dateTimePickerHolder input {
+	width: 100%;
+}
+.dateTimePickerHolder:after {
+	position: absolute;
+	content: " ";
+	display: block;
+	height: 14px;
+	width: 14px;
+	top: 50%;
+	right: 12px;
+	transform: translate(0%, -50%);
+	background-image: url("/Images/calendar-icon.png");
+	background-size: 14px 14px;
+}
+.filterButtons {
+	display: flex;
+	justify-content: flex-end;
+	gap: 8px;
+	button {
+		display: flex;
+		align-items: center;
+		gap: 4px;
+	}
+	span {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 20px;
+		width: 20px;
+		background: #d0d9f8;
+		border-radius: 20px;
+		font-weight: 700;
+		font-size: 8px;
+		color: #2d3779;
+		line-height: 20px;
+	}
+}
+.tabHolder {
+	display: flex;
+	gap: 10px;
+	padding-bottom: 15px;
+	button {
+		border: 0;
+		outline: 0;
+		background-color: transparent;
+		padding: 7px 8px;
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 18px;
+		color: #7e839f;
+		line-height: 18px;
+		border-bottom: 1px solid #fff;
+	}
+	button.active {
+		color: var(--secondrayColor);
+		border-bottom: 1px solid var(--secondrayColor);
+	}
+}
+@media screen and (max-width: 600px) {
+	.slideDownUp {
+		max-height: 2500px;
+	}
+	.filterButtons {
+		justify-content: flex-start;
+	}
+}

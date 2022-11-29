@@ -1,0 +1,14 @@
+/**/
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .contentContainer{
+    width: 100%;
+  }
+  
+  .contentContainerInside{
+    padding: 20px;
+  }
