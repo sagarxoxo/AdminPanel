@@ -1,0 +1,292 @@
+/*Dashboard Content*/
+
+.mainContent{
+    margin: 30px 0px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.contentNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contentNav .heading h2{
+    font-weight: 600;
+    font-size: 20px;
+    color: #2D3779;
+}
+
+.contentNav .heading span{
+    font-weight: 500;
+    font-size: 16px;
+    color: #B5B5C3;
+}
+
+.cmmBtn{
+    margin-right: 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    padding: 8px 20px;
+}
+.outlinedBtn{
+    border: 1px solid #E9F0FC;
+    background: #FFFFFF;
+    color: #313C5E;
+}
+
+
+.outlinedBtn img{
+    margin-right: 5px;
+}
+
+.outlinedBtn:hover{
+    background-color: #448DC9;
+    border: 0px;
+    color: #fff;
+}
+
+.ligBtn{
+    background: #F1F4FF;
+    color: #313C5E;
+    border: 0px;
+}
+.primBtn{
+    background: #2D3779;
+}
+
+.dataCard{
+    background: #FFFFFF;
+    border: 1px solid #E9F0FC;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.dataCard .s1{
+    color: #2D3779;
+    font-weight: 500;
+}
+
+.dataCard .s2{
+    color: #6D728E;
+    font-weight: 600;
+}
+
+.singleData{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    background: #FFFFFF;
+    border: 1px solid #E9F0FC;
+    padding: 5px 8px;
+    border-radius: 4px;
+    }
+.innerDataCard{ 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.innerDataCard .user{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 8px;
+    float: left;
+}
+
+.innerDataCard .user span{
+    color: #2D3779;
+    font-weight: 500;
+    font-size: 15px;
+ }
+
+.innerDataCard .user a{
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   font-weight: 500;
+   font-size: 15px;
+   color: #9F9FB0;
+}
+
+.innerDataCard .info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+    float: right;
+}
+
+.innerDataCard .info span{
+    color: #2D3779;
+    font-weight: 500;
+    font-size: 15px;
+
+ }
+
+ .innerDataCard .info a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 15px;
+    color: #9F9FB0;
+ }
+
+ .pagination{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 100%;
+    color: #6D728E;
+ }
+ 
+ .pagination li .page-link{
+    border: 0px ;
+    color: #6D728E;
+ }
+
+ .pagination .active .page-link{
+    border: 0px ;
+    background-color: transparent;
+    color: #5878DD;
+    font-weight: 500;
+ }
+
+ .pagination li:first-child .page-link{
+    padding: 4px 8px;
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+    margin-right: 1px;
+ }
+
+ .pagination li:last-child .page-link{
+    padding: 4px 8px;
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+ }
+
+ .socialCard{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6D728E;
+  }
+  
+  .scoialNa{
+    display: flex;
+    flex-direction: row;
+  
+    align-items: center;
+  }
+  
+  .instaBg{
+    border-radius: 50%;
+    padding: 10px 10px;
+    color: #fff;
+    margin-right: 10px;
+    background: radial-gradient(circle at 30% 107%, #753a88 0%,#d6249f 60%,#cc2b5e 90%);
+  }
+  
+  .ytBg{
+    border-radius: 50%;
+    padding: 10px 10px;
+    color: #fff;
+    margin-right: 10px;
+    background: #FF0000;
+  }
+  
+  .tikBg{
+    border-radius: 50%;
+    padding: 10px 10px;
+    color: #fff;
+    margin-right: 10px;
+    background: #161C40;
+  }
+  
+  .socialData{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .socialData span{
+    font-weight: 700;
+    font-size: 22px;
+    color: #2D3779;
+  }
+
+  .draggable {
+    cursor: move;
+  }
+
+  .draggable.dragging {
+    opacity: .5;
+  }
+
+  .actdionModal{
+    padding: 20px;
+  }
+
+  .actdionModal h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #2D3779;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.actionDm{
+    border: 1px solid #e9f0fc;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.actionDm .btnRightCont, .actionLabel .btnRightCont, .btnRightCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.actionLabel{
+    border: 1px solid #e9f0fc;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.actionDm div{
+    padding: 0.375rem 0.75rem;
+}
+
+.expoModalCOnt{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.expoBtn{
+    padding: 0.375rem 0.75rem;
+}
+
+.btnCenCont{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.singleData .dropdown-toggle {
+    background: #F3F6F9;
+    padding: 3px 5px;
+    color: #464E5F;
+    font-size: 18px;
+    border: 0px;
+    font-weight: 600;
+}

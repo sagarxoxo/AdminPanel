@@ -1,0 +1,319 @@
+.adminContainer{
+  margin-top: 20px;
+  margin-left: -20px;
+  padding: 0;
+}
+
+.bgGreen{
+  background-color: #20D748;
+}
+
+.bgOrange{
+  background-color: #FFA800;
+}
+
+.bgDblue{
+  background-color: #2D3779;
+}
+
+.bgYellow{
+  background-color: #FFD600;
+}
+
+.instaBg{
+  border-radius: 50%;
+  padding: 10px 10px;
+  color: #fff;
+  margin-right: 10px;
+  background: radial-gradient(circle at 30% 107%, #753a88 0%,#d6249f 60%,#cc2b5e 90%);
+}
+
+.ytBg{
+  border-radius: 50%;
+  padding: 10px 10px;
+  color: #fff;
+  margin-right: 10px;
+  background: #FF0000;
+}
+
+.tikBg{
+  border-radius: 50%;
+  padding: 10px 10px;
+  color: #fff;
+  margin-right: 10px;
+  background: #161C40;
+}
+
+.adminHeading{
+  color: #2D3779;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.cardCm{
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.cardCm .csHeading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cardCm .cmbg {
+  border-radius: 50%;
+  padding: 8px 14px;
+  margin-right: 10px;
+}
+
+.csHeading span {
+  font-size: 18px;
+  color: #2D3779;
+  font-weight: 600;
+}
+
+.cardCm .infoInflu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.cardCm .infoInflu div{
+  display: flex;
+  flex-direction: column;
+}
+
+.cardCm .infoInflu div span:first-child{
+  color: #6D728E;
+  font-weight: 500;
+
+}
+.cardCm .infoInflu div span:last-child{
+  font-weight: 700;
+  font-size: 24px;
+  color: #2D3779;
+}
+
+.cardCm .infoInflu div p{
+  margin-top: 5px;
+  line-height: 16px;
+  font-size: 14px;
+  color: #2D3779;
+}
+
+.infoInfluinnerCard{
+  padding: 16px;
+  background-color: #F8FAFB;
+  color: #6D728E;
+  border-radius: 4px;
+}
+
+.infoInfluinnerCard .progress {
+  height: 6px;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+.perProgressBar{
+  font-size: 12px;
+  margin-right: 0px;
+}
+
+.sociN{
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.infoClient div{
+  display: flex;
+  flex-direction: column;
+}
+
+.infoClientinnerCard{
+  padding: 16px;
+  background-color: #F8FAFB;
+  color: #6D728E;
+  border-radius: 4px;
+}
+
+.infoClientinnerCard div{
+  display: flex;
+  flex-direction: column;
+}
+
+.infoClientinnerCard div span:first-child{
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.infoClientinnerCard div span:last-child{
+  font-weight: 700;
+  font-size: 14px;
+  color: #448DC9;
+  margin-bottom: 10px;
+}
+
+.infoClient div:first-child{
+  margin-top: 20px;
+}
+
+.infoClient div:last-child{
+  margin-top: 40px;
+}
+
+.infoClient div span:first-child{
+  color: #6D728E;
+  font-weight: 500;
+}
+
+.infoClient div span:last-child{
+  font-weight: 700;
+  font-size: 24px;
+  color: #2D3779;
+}
+
+.infoClient  div p{
+  margin-top: 10px;
+  line-height: 16px;
+  font-size: 14px;
+  color: #2D3779;
+}
+
+.infoInfuinnerCard{
+  padding: 16px;
+  background-color: #F8FAFB;
+  color: #6D728E;
+  border-radius: 4px;
+}
+
+.infoInfuinnerCard div{
+  display: flex;
+  flex-direction: column;
+}
+
+.infoInfuinnerCard div span:first-child{
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.infoInfuinnerCard div span:last-child{
+  font-weight: 500;
+  font-size: 14px;
+  color: #448DC9;
+  margin-bottom: 10px;
+}
+
+.infoOClient{
+  display: flex;
+  flex-direction: column;
+}
+
+.infoOClient div{
+  display: flex;
+  flex-direction: column;
+}
+
+.infoOClient div:first-child{
+  margin-top: 20px;
+}
+
+.infoOClient div:last-child{
+  margin-top: 40px;
+}
+
+.infoOClient div span:first-child{
+  color: #6D728E;
+  font-weight: 500;
+}
+
+.infoOClient div span:last-child{
+  font-weight: 700;
+  font-size: 24px;
+  color: #2D3779;
+}
+
+.infoOClient  div p{
+  margin-top: 10px;
+  line-height: 16px;
+  font-size: 14px;
+  color: #2D3779;
+}
+
+.infoOClient .graph{
+  width: 100%;
+}
+
+.infoOClintinnerCard{
+  padding: 16px;
+  background-color: #F8FAFB;
+  color: #6D728E;
+  border-radius: 4px;
+}
+
+.infoOClintinnerCard .innerContainer{
+  padding: 20px;
+}
+
+.OclientInfo{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.OclientInfo .graph{
+  margin-top: 20px;
+  width: 100%;
+}
+
+.OclientInfo span:first-child{
+  color: #6D728E;
+  font-weight: 500;
+}
+
+.OclientInfo span:nth-child(2){
+  font-weight: 700;
+  font-size: 24px;
+  color: #2D3779;
+}
+
+.OclientInfo p{
+  margin-top: 10px;
+  line-height: 16px;
+  font-size: 14px;
+  color: #2D3779;
+  margin-bottom: 0px;
+}
+
+.infoReportsinnerCard{
+  padding: 16px;
+  background-color: #F8FAFB;
+  color: #6D728E;
+  border-radius: 4px;
+}
+
+.infoReportsinnerCard div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.infoReportsinnerCard span{
+  margin-top: 20px;
+}
+
+.infoReportsinnerCard span:first-child{
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.infoReportsinnerCard span:last-child{
+  font-weight: 500;
+  font-size: 16px;
+  color: #448DC9;
+}

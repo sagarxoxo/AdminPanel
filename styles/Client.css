@@ -1,0 +1,175 @@
+.clientContainer{
+    margin-top: 20px;
+    padding: 0;
+}
+
+.clientHeading{
+    color: #2D3779;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.cardCm .infoCli {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.cardCm .infoCli div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.infoCli .graph{
+    width: 100%;
+}
+
+.cardCm .infoCli div span:first-child {
+    color: #6D728E;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cardCm .infoCli div span:last-child {
+    font-weight: 700;
+    font-size: 24px;
+    color: #2D3779;
+}
+
+.cardCm .infoCli div p {
+    margin-top: 5px;
+    line-height: 16px;
+    font-size: 16px;
+    color: #2D3779;
+    margin-bottom: 0px;
+}
+
+.filterContainer .form-check-input[type=checkbox] {
+    border: 2px solid #7E839F;
+}
+
+.filterContainer .form-check{
+    margin-top: 30px;
+}
+
+.checkB .form-check{
+    margin-top: 10px;
+}
+
+.custTableHead{
+    background-color: #F3F6F9;
+    color: #464E5F;
+    font-size: 16px;
+}
+
+
+
+table{
+    margin-top: 20px;
+}
+
+tbody tr td .userinfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+tbody tr td .userinfo .imgTableProfile {
+    margin: 0 10px;
+}
+
+td .dropdown-toggle {
+    background: #f3f6f9;
+    border: 0;
+    color: #464e5f;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 3px 5px;
+}
+
+td .dropdown-toggle:hover {
+    background: #edf1f5;
+    color: #3d4454;
+}
+
+tbody tr td .userinfo img{
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+
+tbody tr td{
+    color: #464E5F;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+td .dropdown-toggle::after{
+    display: none;
+}
+.table>:not(caption)>*>* {
+    padding: 1rem 0.5rem;
+}
+
+tbody tr td .userinfo div{
+    display: flex;
+    flex-direction: column;
+}
+
+tbody tr td .userinfo div span:first-child{
+    color: #464E5F;
+    font-weight: 600;
+}
+
+tbody tr td .userinfo div span:last-child{
+    font-size: 14px;
+    color: #A7A9B6;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-style: none;
+}
+
+.campainTableContainer .pagination{
+    /* margin-left: 70%; */
+}
+
+tbody td .dotBtn{
+    background: #F3F6F9;
+    padding: 3px 5px;
+}
+
+.singleData .dropdown-toggle {
+    background: #F3F6F9;
+    padding: 3px 5px;
+    color: #464E5F;
+    font-size: 18px;
+    border: 0px;
+    font-weight: 600;
+}
+
+.clientModal .modal-content {
+    width: 100%;
+  }
+  
+  .clientModalNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .clientModalNav button{
+    background-color: #7e839f;
+    border: 0px;
+    margin: 10px 10px 0px 0px;
+  }
+  
+  .clientModalNav button:hover{
+    background-color: #2D3779;
+  }
+  

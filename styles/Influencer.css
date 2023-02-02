@@ -1,0 +1,228 @@
+.influencer-main {
+  margin: 30px 0px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.nav-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.input-box,
+.second-form-con,
+.third-form-con,
+.influencer-table-con {
+  margin: 30px 0px;
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid #e9f0fc;
+  border-radius: 8px;
+}
+.influencer-table-con p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #2d3779;
+}
+.input-con {
+  width: 194px;
+}
+.min-max-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filter-button {
+  width: 78px;
+  height: 32px;
+  background: #2d3779;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #ffffff;
+  border: none;
+}
+
+.clear-filter-button {
+  width: 120px;
+  height: 32px;
+  background: #f8fafb;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #7e839f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+}
+.clear-button {
+  width: 20px;
+  height: 20px;
+  background: #2d3779;
+  border-radius: 62.3003px;
+  font-weight: 600;
+  font-size: 10px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.influencer-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.influencer-buttons-con {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 25px;
+}
+.input-con1 {
+  width: 280px;
+}
+
+.headInfi{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headInfi {
+  font-weight: 600;
+  font-size: 20px;
+  color: #2D3779;
+}
+
+.addCamCont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.influencerModal .modal-content {
+  width: 100%;
+}
+
+.infuModalNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.infuModalNav button{
+  background-color: #7e839f;
+  border: 0px;
+  width: 100%;
+  margin: 10px 10px 0px 0px;
+}
+
+.infuModalNav button:hover{
+  background-color: #2D3779;
+}
+
+.profileShowcase{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileShowcase .userName{
+  font-size: 18px;
+  font-weight: 700;
+  color: #2D3779;
+}
+
+
+.profileShowcase .userDet{
+  font-size: 16px;
+  font-weight: 500;
+  color: #7e839f;
+}
+
+
+.platformDetCont .flowDs{
+  width: 100%;
+  margin: 0px;
+  background-color: #e9f0fc;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.insightCont{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.insightCont div{
+  font-size: 14px;
+  width: 100%;
+  margin: 10px;
+  background-color: #e9f0fc;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.insightCont div .highlight{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.activeInfuModalNav{
+  background-color: #2D3779;
+}
+
+.audienceCont{
+  margin-top: 20px;
+}
+
+.audienceCont h2{
+  font-size: 18px;
+  font-weight: 700;
+  color: #2D3779;
+}
+
+.countFlag{
+  margin-top: 20px;
+}
+
+.countFlag span{
+  font-weight: 500;
+}
+
+.percNow{
+  float: right;
+  font-size: 14px;
+}
+
+.showMoreBtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  background-color: transparent;
+  color: #2D3779;
+  border: 1px solid #2D3779;
+  display: block;
+  margin: 20px auto;
+}
+
+.showMoreBtn:hover{
+  background-color: #2D3779;
+}
+
+.btn-close{
+  display: none;
+}

@@ -1,0 +1,53 @@
+{
+  "name": "adminpanel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "@fullcalendar/common": "^5.11.3",
+    "@fullcalendar/core": "^5.11.3",
+    "@fullcalendar/daygrid": "^5.11.3",
+    "@fullcalendar/interaction": "^5.11.3",
+    "@fullcalendar/react": "^5.11.2",
+    "@fullcalendar/resource-timegrid": "^5.11.3",
+    "@fullcalendar/resource-timeline": "^5.11.3",
+    "@fullcalendar/timegrid": "^5.11.3",
+    "@reduxjs/toolkit": "^1.8.6",
+    "bootstrap": "^5.2.2",
+    "chart.js": "^3.9.1",
+    "fullcalendar": "^5.11.3",
+    "next": "12.3.1",
+    "next-redux-wrapper": "^8.0.0",
+    "next-transpile-modules": "^9.1.0",
+    "react-bootstrap": "^2.5.0",
+    "react-bootstrap-typeahead": "^6.0.0",
+    "react-calendar": "^3.9.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-date-range": "^1.4.0",
+    "react-datepicker": "^4.8.0",
+    "react-file-base64": "^1.0.3",
+    "react-icons": "^4.4.0",
+    "react-redux": "^8.0.4",
+    "react-router-dom": "^6.4.2",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
+    "thunk": "^0.0.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.38",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-times": "^3.1.12"
+  }
+}
